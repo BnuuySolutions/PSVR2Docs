@@ -1,4 +1,4 @@
-# PSVR2Docs
+# PlayStation VR2 Docs
 Reverse-engineered documentation for PlayStation VR2.
 
 # "Report" Format
