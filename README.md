@@ -12,13 +12,13 @@ The PlayStation VR2 uses its own "report" format using USB transfer control call
 
 # Interfaces
 - Interface 2 (Audio)
-- Interface 3 (SLAM Tracking)
+- Interface 3 (SLAM Tracking) - CaesarUsbThreadSlamTracking
 - Interface 4 (Data)
-- Interface 5 (Gaze)
-- Interface 6 (Image)
-- [Interface 7 (IMU/Status)](imu-status-interface.md)
-- Interface 8 (LED Detector)
-- Interface 9 (Relocalizer)
-- Interface 10 (Generated Data)
+- Interface 5 (Gaze) - CaesarUsbThreadGaze (implemented by PlayStation VR2 Toolkit)
+- Interface 6 (Image) - CaesarUsbThreadImage
+- [Interface 7 (IMU/Status)](imu-status-interface.md) - CaesarUsbThreadImuStatus
+- Interface 8 (LED Detector) - CaesarUsbThreadLeddet
+- Interface 9 (Relocalizer) - CaesarUsbThreadRelocPre
+- Interface 10 (Generated Data) - CaesarUsbThreadGenData
 - Interface 11 (SLAM Trace)
-- Interface 12 (Log)
+- Interface 12 (Log) - CaesarUsbThreadLog
