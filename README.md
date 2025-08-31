@@ -11,7 +11,8 @@ The PlayStation VR2 uses its own "report" format using USB transfer control call
 **NOTE:** Although most interfaces use the "report" format, a few also use bulk USB reads (e.g. Gaze), potentially with its own format.
 
 # Interfaces
-- Interface 2 (Audio)
+- Interface 0 (Control)
+- Interface 1 (Audio)
 - Interface 3 (SLAM Tracking) - CaesarUsbThreadSlamTracking
 - Interface 4 (Data)
 - Interface 5 (Gaze) - CaesarUsbThreadGaze (implemented by PlayStation VR2 Toolkit)
